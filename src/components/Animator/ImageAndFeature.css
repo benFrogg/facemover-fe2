@@ -1,0 +1,71 @@
+.Contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+button {
+  background-color: white;
+  color: rgb(28, 27, 27);
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  border: solid white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-flow: column;
+  max-width: 0px;
+  margin: 0 auto;
+}
+
+.items {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.outputGif {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  height: 80%;
+}
+
+video {
+  width: 80%;
+  height: 80%;
+}
+
+@media screen and (min-width: 1024px) {
+  .animateItem {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  .inputImg {
+    display: flex;
+  }
+
+  .inputFeat {
+    display: flex;
+  }
+
+  .outputGif {
+    display: flex;
+  }
+}
